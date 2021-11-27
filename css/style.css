@@ -1,0 +1,29 @@
+
+
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+  
+/* Code below coourtesy of Brad Taunt at https://tdarb.org */
+body {
+    font-size:18px;
+    margin:1.5em;
+}
+code {
+    font-size:14px;
+}
+pre {
+    overflow:auto;
+}
+@media (prefers-color-scheme: dark) {
+    @media not print {
+        html {background:#0e0e0e;color:#e1e1e1; }
+        a {color: gold;}
+        a:visited {color: orange;}
+        a:hover,a:focus{color: orangered;}
+    }
+} 
